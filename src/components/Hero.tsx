@@ -51,8 +51,13 @@ const Hero = () => {
           </Button>
 
           {/* Special Offer Highlight */}
-          <div className="mt-4 text-sm text-muted-foreground">
-            💥 <span className="font-semibold text-accent">Preço especial de lançamento: R$ 19,90</span>
+          <div className="mt-4 bg-card/80 backdrop-blur-sm rounded-lg p-3 inline-block border">
+            <div className="text-sm text-muted-foreground line-through">
+              De R$ 198,00
+            </div>
+            <div className="text-lg font-bold text-accent">
+              💥 Por apenas R$ 29,90 por tempo limitado!
+            </div>
           </div>
         </div>
       </div>

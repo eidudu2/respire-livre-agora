@@ -9,10 +9,13 @@ const Offer = () => {
           {/* Offer Headline */}
           <div className="mb-8">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              💥 Preço especial de lançamento
+              💥 Oferta por tempo limitado
             </h2>
+            <div className="text-2xl opacity-70 line-through mb-2">
+              De R$ 198,00
+            </div>
             <div className="text-6xl md:text-7xl font-bold mb-2">
-              R$ 19,90
+              R$ 29,90
             </div>
             <p className="text-xl opacity-90">
               Acesso imediato – Baixe agora e comece hoje

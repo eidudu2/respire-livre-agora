@@ -35,7 +35,9 @@ const FinalCta = () => {
             </Button>
 
             <div className="text-sm text-muted-foreground">
-              💥 Oferta por tempo limitado: <span className="font-semibold text-accent">R$ 19,90</span>
+              <span className="line-through opacity-60">De R$ 198,00</span> por apenas{" "}
+              <span className="font-semibold text-accent text-lg">R$ 29,90</span>{" "}
+              💥 Oferta por tempo limitado!
             </div>
           </div>
 
